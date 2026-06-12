@@ -150,7 +150,7 @@ h3{
 }
 .grafico--node{
     background-image: url(../img/grafico2.jpg);
-    grid-row: 8/9;
+    grid-row: 8 / 9;
 }
 @media (min-width: 768px) {
     .grafico--node{
@@ -160,7 +160,9 @@ h3{
 }
 /** Nosotros **/
 .nosotros{
-
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
 }
 .nosotros__contenido{
 
